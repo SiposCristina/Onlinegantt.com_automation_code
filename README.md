@@ -14,6 +14,7 @@ The purpose is to collect data and analyze it to observe how the application res
 ![image](https://github.com/user-attachments/assets/c4acdf48-b8cc-4fd8-8946-7eee95461b25)
 <br>
 <p>Also, the script provides information about how much time is required to indent six tasks, assign resources to six tasks, and add dependencies and notes to four tasks. This data is collected after all tasks (58, 258, and 508) have been added. <br>
+<br>
 As illustrated in the chart below, the time required increases as more tasks are added, even when the number of indented tasks, assigned resources, added dependencies and notes remains constant.  This indicates that the product becomes difficult to use as the size of the project reaches a couple hundred tasks.
 </p>
 ![image](https://github.com/user-attachments/assets/6d784004-1e4c-4b08-887b-7a3169c66c8e)
