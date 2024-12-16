@@ -10,6 +10,7 @@ The purpose is to collect data and analyze it to observe how the application res
 
 <h3>Test Results</h3> <p>As the below charts illustrate, as more tasks are added, the application performance gradually slows down.  </p>
 ![Chart1](https://github.com/user-attachments/assets/b2addc6b-2ff7-44c0-a850-075d2f4ebdc9)
+
 <br>
 <p>Also, the script provides information about how much time is required to indent six tasks, assign resources to six tasks, and add dependencies and notes to four tasks. This data is collected after all tasks (58, 258, and 508) have been added. <br>
 <br>
