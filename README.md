@@ -5,7 +5,9 @@ The Online Gantt Chart has a cloud version and a local version. I tested only th
  </a> </p>
 
 <h3>Description</h3> <p>To test the performance of the application, I wrote a Playwright script. The script reads a JSON file that contains 58 tasks, another with 258 tasks, and a third with 508 tasks. Each file is read by the script and then it adds each task to the project. At the end of that process, the script performs a set of characteristic operations on six tasks, including indenting them, setting dependencies, assigning resources, and exporting project data.<br>
+<br>
 The purpose is to collect data and analyze it to observe how the application responds as the number of tasks increases.<br>
+<br>
 As the below charts illustrate, as more tasks are added, the application performance gradually slows down.</p>
 
 <h3>Test Results</h3> <p>  </p>
