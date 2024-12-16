@@ -9,9 +9,7 @@ The Online Gantt Chart has a cloud version and a local version. I tested only th
 The purpose is to collect data and analyze it to observe how the application responds as the number of tasks increases.</p>
 
 <h3>Test Results</h3> <p>As the below charts illustrate, as more tasks are added, the application performance gradually slows down.  </p>
-![image]([https://github.com/user-attachments/assets/10e5b3dd-435a-42a4-9b45-c9c683567843](https://github.com/SiposCristina/Onlinegantt.com_automation_code/blob/b63f91bc2f6cc918d8255c6e78be1200ff158ced/Chart1.crtx))
-![image](https://github.com/user-attachments/assets/cdc47107-1042-48c1-b5ad-81e1fa0136ac)
-![image](https://github.com/user-attachments/assets/c4acdf48-b8cc-4fd8-8946-7eee95461b25)
+![image alt](https://github.com/SiposCristina/Onlinegantt.com_automation_code/blob/b63f91bc2f6cc918d8255c6e78be1200ff158ced/Chart1.crtx)
 <br>
 <p>Also, the script provides information about how much time is required to indent six tasks, assign resources to six tasks, and add dependencies and notes to four tasks. This data is collected after all tasks (58, 258, and 508) have been added. <br>
 <br>
