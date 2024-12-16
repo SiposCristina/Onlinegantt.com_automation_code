@@ -16,7 +16,7 @@ The purpose is to collect data and analyze it to observe how the application res
 ![Image Alt](https://github.com/SiposCristina/Onlinegantt.com_automation_code/blob/20e64ecc35b2303dbab2003c09f30e4a50fe16b8/Chart2.jpg)
 
 
-![Image Alt](https://github.com/SiposCristina/Onlinegantt.com_automation_code/blob/d84fff0e327148b96fc99333590d4f4ae4a0ced8/Chart3.jpg)
+![Image Alt](https://github.com/SiposCristina/Onlinegantt.com_automation_code/blob/816a09d7fb6d10f47fdbb9516425004376ca6c9e/Chart3.jpg)
 
 
 <br>
