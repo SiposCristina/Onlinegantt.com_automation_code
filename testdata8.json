@@ -1,0 +1,154 @@
+{
+    "tasks":
+        [{  "name": "Master Task 1",
+            "startDate": "2024-08-23",
+            "endDate": "2024-08-30",
+            "progress": "50"
+        }, 
+        
+        {   "name": "Subtask MT1 1",
+            "startDate": "2024-08-26",
+            "endDate": "2024-08-28",
+            "progress": "20"
+        }, 
+        
+        {   "name": "Subtask MT1 2",
+            "startDate": "2024-08-28",
+            "endDate": "2024-08-30",
+            "progress": "20"
+        }, 
+        
+        {   "name": "Subtask MT1 3",
+            "startDate": "2024-09-02",
+            "endDate": "2024-09-06",
+            "progress": "30"
+        }, 
+        
+        {   "name": "Master Task 2",
+            "startDate": "2024-09-06",
+            "endDate": "2024-09-13",
+            "progress": "30"
+        }, 
+        
+        {   "name": "Subtask MT2 1",
+            "startDate": "2024-09-13",
+            "endDate": "2024-09-20",
+            "progress": "30"
+        }, 
+        
+        {   "name": "Subtask MT2 2",
+            "startDate": "2024-09-20",
+            "endDate": "2024-09-26",
+            "progress": "30"
+        }, 
+        
+        {   "name": "Subtask MT2 3",
+            "startDate": "2024-09-26",
+            "endDate": "2024-09-30",
+            "progress": "30"
+        }
+    ],
+    
+    "tasksToIndent":
+    [
+        "Subtask MT1 1",
+        "Subtask MT1 2",
+        "Subtask MT1 3",
+        "Subtask MT2 1",
+        "Subtask MT2 2",
+        "Subtask MT2 3"
+    ],
+    
+    "createDependencies":
+    
+    [{
+        "taskName": "Subtask MT1 2",
+        "dependency": "2-Subtask MT1 1",
+        "type": "Start-Finish",
+        "notes": "The purpose of this test strategy is to guide the testing of the Online Gantt application."
+    }, 
+        
+    {
+        "taskName": "Subtask MT1 3",
+        "dependency": "3-Subtask MT1 2",
+        "type": "Finish-Start",
+        "notes": "I started adding tasks to the default tasks. During this process, I observed that the Start and End Dates for new tasks were set in the past. When I started a new project, the starting date of the timeline was displayed in the past, also the Start and End Dates for newly added tasks continued to reflect this issue."
+    }, 
+    
+    {
+        "taskName": "Subtask MT2 2",
+        "dependency": "6-Subtask MT2 1",
+        "type": "Start-Start",
+        "notes": "I started adding tasks to the default tasks."
+    }, 
+    
+    {
+        "taskName": "Subtask MT2 3",
+        "dependency": "7-Subtask MT2 2",
+        "type": "Finish-Finish",
+        "notes": "During this process, I observed that the Start and End Dates for new tasks were set in the past. When I started a new project, the starting date of the timeline was displayed in the past, also the Start and End Dates for newly added tasks continued to reflect this issue."
+    }],
+    
+    "setResources":
+    [{
+        "task": "Subtask MT1 1",
+        "resource": "checkbox Team 1 column header"
+    }, 
+    
+    {
+        "task": "Subtask MT1 2",
+        "resource": "checkbox Team 1 column header"
+    }, 
+    
+    {
+        "task": "Subtask MT1 3",
+        "resource": "checkbox Team 1 column header"
+    }, 
+    
+    {
+        "task": "Subtask MT2 1",
+        "resource": "checkbox Team 2 column header"
+    }, 
+    
+    {
+        "task": "Subtask MT2 2",
+        "resource": "checkbox Team 2 column header"
+    }, 
+    
+    {
+        "task": "Subtask MT2 3",
+        "resource": "checkbox Team 2 column header"
+    }],
+
+    "files":
+    [{
+        "fileName": "Export to Excel File",
+        "fileType": "Export_to_Excel_File.csv"
+    }, 
+    
+    {
+        "fileName": "Export to PDF File",
+        "fileType": "Export_to_PDF_File.pdf"
+    }, 
+    
+    {
+        "fileName": "Export to Image File",
+        "fileType": "Export_to_Image_File.png"
+    }],
+
+    "resourcesFiles":
+    [{
+        "resFile": "Export to Excel File",
+        "resourceType": "Export_to_Excel_File.csv"
+    }, 
+    
+    {
+        "resFile": "Export to PDF File",
+        "resourceType": "Export_to_PDF_File.pdf"
+    }, 
+    
+    {
+        "resFile": "Export to Image File",
+        "resourceType": "Export_to_Image_File.png"
+    }]
+}
