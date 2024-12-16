@@ -1,0 +1,455 @@
+{
+    "tasks": [
+      {
+        "name": "Master Task 1",
+        "startDate": "2024-08-23",
+        "endDate": "2024-08-30",
+        "progress": "50"
+      },
+      {
+        "name": "Subtask MT1 1",
+        "startDate": "2024-08-26",
+        "endDate": "2024-08-28",
+        "progress": "20"
+      },
+      {
+        "name": "Subtask MT1 2",
+        "startDate": "2024-08-28",
+        "endDate": "2024-08-30",
+        "progress": "20"
+      },
+      {
+        "name": "Subtask MT1 3",
+        "startDate": "2024-09-02",
+        "endDate": "2024-09-06",
+        "progress": "30"
+      },
+      {
+        "name": "Master Task 2",
+        "startDate": "2024-09-06",
+        "endDate": "2024-09-13",
+        "progress": "30"
+      },
+      {
+        "name": "Subtask MT2 1",
+        "startDate": "2024-09-13",
+        "endDate": "2024-09-20",
+        "progress": "30"
+      },
+      {
+        "name": "Subtask MT2 2",
+        "startDate": "2024-09-20",
+        "endDate": "2024-09-26",
+        "progress": "30"
+      },
+      {
+        "name": "Subtask MT2 3",
+        "startDate": "2024-09-26",
+        "endDate": "2024-09-30",
+        "progress": "30"
+      },
+      {
+        "name": "addedtask 1",
+        "startDate": "2024-10-4",
+        "endDate": "2024-11-26",
+        "progress": "21"
+      },
+      {
+        "name": "addedtask 2",
+        "startDate": "2024-10-19",
+        "endDate": "2024-11-3",
+        "progress": "87"
+      },
+      {
+        "name": "addedtask 3",
+        "startDate": "2024-10-8",
+        "endDate": "2024-11-23",
+        "progress": "67"
+      },
+      {
+        "name": "addedtask 4",
+        "startDate": "2024-10-14",
+        "endDate": "2024-11-23",
+        "progress": "10"
+      },
+      {
+        "name": "addedtask 5",
+        "startDate": "2024-10-4",
+        "endDate": "2024-11-21",
+        "progress": "88"
+      },
+      {
+        "name": "addedtask 6",
+        "startDate": "2024-10-13",
+        "endDate": "2024-11-21",
+        "progress": "89"
+      },
+      {
+        "name": "addedtask 7",
+        "startDate": "2024-10-18",
+        "endDate": "2024-11-9",
+        "progress": "64"
+      },
+      {
+        "name": "addedtask 8",
+        "startDate": "2024-10-8",
+        "endDate": "2024-11-20",
+        "progress": "51"
+      },
+      {
+        "name": "addedtask 9",
+        "startDate": "2024-10-15",
+        "endDate": "2024-11-3",
+        "progress": "58"
+      },
+      {
+        "name": "addedtask 10",
+        "startDate": "2024-10-13",
+        "endDate": "2024-11-21",
+        "progress": "68"
+      },
+      {
+        "name": "addedtask 11",
+        "startDate": "2024-10-28",
+        "endDate": "2024-11-24",
+        "progress": "23"
+      },
+      {
+        "name": "addedtask 12",
+        "startDate": "2024-10-12",
+        "endDate": "2024-11-26",
+        "progress": "42"
+      },
+      {
+        "name": "addedtask 13",
+        "startDate": "2024-10-22",
+        "endDate": "2024-11-6",
+        "progress": "52"
+      },
+      {
+        "name": "addedtask 14",
+        "startDate": "2024-10-25",
+        "endDate": "2024-11-18",
+        "progress": "78"
+      },
+      {
+        "name": "addedtask 15",
+        "startDate": "2024-10-10",
+        "endDate": "2024-11-16",
+        "progress": "98"
+      },
+      {
+        "name": "addedtask 16",
+        "startDate": "2024-10-12",
+        "endDate": "2024-11-19",
+        "progress": "49"
+      },
+      {
+        "name": "addedtask 17",
+        "startDate": "2024-10-28",
+        "endDate": "2024-11-19",
+        "progress": "19"
+      },
+      {
+        "name": "addedtask 18",
+        "startDate": "2024-10-18",
+        "endDate": "2024-11-14",
+        "progress": "56"
+      },
+      {
+        "name": "addedtask 19",
+        "startDate": "2024-10-22",
+        "endDate": "2024-11-12",
+        "progress": "6"
+      },
+      {
+        "name": "addedtask 20",
+        "startDate": "2024-10-6",
+        "endDate": "2024-11-8",
+        "progress": "67"
+      },
+      {
+        "name": "addedtask 21",
+        "startDate": "2024-10-27",
+        "endDate": "2024-11-24",
+        "progress": "42"
+      },
+      {
+        "name": "addedtask 22",
+        "startDate": "2024-10-29",
+        "endDate": "2024-11-22",
+        "progress": "46"
+      },
+      {
+        "name": "addedtask 23",
+        "startDate": "2024-10-12",
+        "endDate": "2024-11-27",
+        "progress": "22"
+      },
+      {
+        "name": "addedtask 24",
+        "startDate": "2024-10-25",
+        "endDate": "2024-11-9",
+        "progress": "87"
+      },
+      {
+        "name": "addedtask 25",
+        "startDate": "2024-10-29",
+        "endDate": "2024-11-1",
+        "progress": "95"
+      },
+      {
+        "name": "addedtask 26",
+        "startDate": "2024-10-27",
+        "endDate": "2024-11-28",
+        "progress": "39"
+      },
+      {
+        "name": "addedtask 27",
+        "startDate": "2024-10-7",
+        "endDate": "2024-11-17",
+        "progress": "5"
+      },
+      {
+        "name": "addedtask 28",
+        "startDate": "2024-10-10",
+        "endDate": "2024-11-20",
+        "progress": "6"
+      },
+      {
+        "name": "addedtask 29",
+        "startDate": "2024-10-16",
+        "endDate": "2024-11-26",
+        "progress": "6"
+      },
+      {
+        "name": "addedtask 30",
+        "startDate": "2024-10-14",
+        "endDate": "2024-11-5",
+        "progress": "69"
+      },
+      {
+        "name": "addedtask 31",
+        "startDate": "2024-10-3",
+        "endDate": "2024-11-28",
+        "progress": "67"
+      },
+      {
+        "name": "addedtask 32",
+        "startDate": "2024-10-3",
+        "endDate": "2024-11-8",
+        "progress": "3"
+      },
+      {
+        "name": "addedtask 33",
+        "startDate": "2024-10-28",
+        "endDate": "2024-11-27",
+        "progress": "88"
+      },
+      {
+        "name": "addedtask 34",
+        "startDate": "2024-10-18",
+        "endDate": "2024-11-12",
+        "progress": "93"
+      },
+      {
+        "name": "addedtask 35",
+        "startDate": "2024-10-28",
+        "endDate": "2024-11-22",
+        "progress": "71"
+      },
+      {
+        "name": "addedtask 36",
+        "startDate": "2024-10-1",
+        "endDate": "2024-11-7",
+        "progress": "33"
+      },
+      {
+        "name": "addedtask 37",
+        "startDate": "2024-10-19",
+        "endDate": "2024-11-30",
+        "progress": "7"
+      },
+      {
+        "name": "addedtask 38",
+        "startDate": "2024-10-3",
+        "endDate": "2024-11-14",
+        "progress": "52"
+      },
+      {
+        "name": "addedtask 39",
+        "startDate": "2024-10-19",
+        "endDate": "2024-11-28",
+        "progress": "49"
+      },
+      {
+        "name": "addedtask 40",
+        "startDate": "2024-10-3",
+        "endDate": "2024-11-30",
+        "progress": "53"
+      },
+      {
+        "name": "addedtask 41",
+        "startDate": "2024-10-11",
+        "endDate": "2024-11-21",
+        "progress": "81"
+      },
+      {
+        "name": "addedtask 42",
+        "startDate": "2024-10-7",
+        "endDate": "2024-11-10",
+        "progress": "75"
+      },
+      {
+        "name": "addedtask 43",
+        "startDate": "2024-10-28",
+        "endDate": "2024-11-2",
+        "progress": "13"
+      },
+      {
+        "name": "addedtask 44",
+        "startDate": "2024-10-17",
+        "endDate": "2024-11-19",
+        "progress": "18"
+      },
+      {
+        "name": "addedtask 45",
+        "startDate": "2024-10-23",
+        "endDate": "2024-11-29",
+        "progress": "53"
+      },
+      {
+        "name": "addedtask 46",
+        "startDate": "2024-10-2",
+        "endDate": "2024-11-11",
+        "progress": "20"
+      },
+      {
+        "name": "addedtask 47",
+        "startDate": "2024-10-16",
+        "endDate": "2024-11-7",
+        "progress": "84"
+      },
+      {
+        "name": "addedtask 48",
+        "startDate": "2024-10-21",
+        "endDate": "2024-11-9",
+        "progress": "22"
+      },
+      {
+        "name": "addedtask 49",
+        "startDate": "2024-10-3",
+        "endDate": "2024-11-19",
+        "progress": "67"
+      },
+      {
+        "name": "addedtask 50",
+        "startDate": "2024-10-18",
+        "endDate": "2024-11-8",
+        "progress": "96"
+      }
+    ],
+    
+    "tasksToIndent":
+    [
+        "Subtask MT1 1",
+        "Subtask MT1 2",
+        "Subtask MT1 3",
+        "Subtask MT2 1",
+        "Subtask MT2 2",
+        "Subtask MT2 3"
+    ],
+    
+    "createDependencies":
+    
+    [{
+        "taskName": "Subtask MT1 2",
+        "dependency": "2-Subtask MT1 1",
+        "type": "Start-Finish",
+        "notes": "The purpose of this test strategy is to guide the testing of the Online Gantt application."
+    }, 
+        
+    {
+        "taskName": "Subtask MT1 3",
+        "dependency": "3-Subtask MT1 2",
+        "type": "Finish-Start",
+        "notes": "I started adding tasks to the default tasks. During this process, I observed that the Start and End Dates for new tasks were set in the past. When I started a new project, the starting date of the timeline was displayed in the past, also the Start and End Dates for newly added tasks continued to reflect this issue."
+    }, 
+    
+    {
+        "taskName": "Subtask MT2 2",
+        "dependency": "6-Subtask MT2 1",
+        "type": "Start-Start",
+        "notes": "I started adding tasks to the default tasks."
+    }, 
+    
+    {
+        "taskName": "Subtask MT2 3",
+        "dependency": "7-Subtask MT2 2",
+        "type": "Finish-Finish",
+        "notes": "During this process, I observed that the Start and End Dates for new tasks were set in the past. When I started a new project, the starting date of the timeline was displayed in the past, also the Start and End Dates for newly added tasks continued to reflect this issue."
+    }],
+    
+    "setResources":
+    [{
+        "task": "Subtask MT1 1",
+        "resource": "checkbox Team 1 column header"
+    }, 
+    
+    {
+        "task": "Subtask MT1 2",
+        "resource": "checkbox Team 1 column header"
+    }, 
+    
+    {
+        "task": "Subtask MT1 3",
+        "resource": "checkbox Team 1 column header"
+    }, 
+    
+    {
+        "task": "Subtask MT2 1",
+        "resource": "checkbox Team 2 column header"
+    }, 
+    
+    {
+        "task": "Subtask MT2 2",
+        "resource": "checkbox Team 2 column header"
+    }, 
+    
+    {
+        "task": "Subtask MT2 3",
+        "resource": "checkbox Team 2 column header"
+    }],
+
+    "files":
+    [{
+        "fileName": "Export to Excel File",
+        "fileType": "Export_to_Excel_File.csv"
+    }, 
+    
+    {
+        "fileName": "Export to PDF File",
+        "fileType": "Export_to_PDF_File.pdf"
+    }, 
+    
+    {
+        "fileName": "Export to Image File",
+        "fileType": "Export_to_Image_File.png"
+    }],
+
+    "resourcesFiles":
+    [{
+        "resFile": "Export to Excel File",
+        "resourceType": "Export_to_Excel_File.csv"
+    }, 
+    
+    {
+        "resFile": "Export to PDF File",
+        "resourceType": "Export_to_PDF_File.pdf"
+    }, 
+    
+    {
+        "resFile": "Export to Image File",
+        "resourceType": "Export_to_Image_File.png"
+    }]
+}
