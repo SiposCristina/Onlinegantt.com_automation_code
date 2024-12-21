@@ -8,7 +8,7 @@ The Online Gantt Chart has a cloud version and a local version. I tested only th
 <br>
 The purpose is to collect data and analyze it to observe how the application responds as the number of tasks increases.</p>
 
-<h3>How to Run It</h3> <p>For performance testing, I ran this command: *npx playwright test ganttJson.spec.js --project chromium --headed*.<br> I used --project chromium option to run the script in Chromium browser, and --headed mode to see the actual browser window during the test execution.<br>
+<h3>How to Run It</h3> <p>For performance testing, I ran this command: **npx playwright test ganttJson.spec.js --project chromium --headed**.<br> I used --project chromium option to run the script in Chromium browser, and --headed mode to see the actual browser window during the test execution.<br>
 For regression testing, I ran this comand: npx playwright test regression.spec.js --project chromium --headed.
 
 </p>
