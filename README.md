@@ -5,14 +5,15 @@ The Online Gantt Chart has a cloud version and a local version. I tested only th
  </a> </p>
 
 <h3>Description</h3> <p> <h4>Performance Testing</h4> </p> <p>To test the performance of the application, I wrote a Playwright script named ganttJson.spec.js. The script reads a JSON file that contains 58 tasks (testdata58.json), another with 258 (testdata258.json) tasks, and a third with 508 tasks (testdata508.json). Each file is read by the script and then it adds each task to the project. At the end of that process, the script performs a set of characteristic operations on six tasks, including indenting them, setting dependencies, assigning resources, and exporting project data.<br>
-<br>
 The purpose is to collect data and analyze it to observe how the application responds as the number of tasks increases.</p>
 <br>
+<h4>Regression Testing</h4> 
 <p>The strategy for regression testing was designed to assess how the application handles the major activities. To achieve this, I wrote a Playwright script that reads testdata8.json JSON file containing eight tasks. The file is read by the script and adds each task to the project. Two tasks are designed as parent tasks, each with three child tasks, resulting in six out of eight tasks being indented. Dependencies and notes are added to four tasks, and resources are assigned six tasks. Once complete, the project file is exported as an Excel, PDF, and Image file. The file names include the day and month of their export (e.g. downloads-21DEC\before).
 Once this cycle is complete, the script proceeds by renaming the tasks, changing the dependency types, adding “Sunday” as a workday, and setting specific holiday dates for tasks scheduled on those days. Screenshots are taken to provide better visualization of the project, then the project file is exported as an Excel, PDF, and Image file. The file names include the day and month of their export (e.g. downloads-21DEC\after).
 <br>
+<br> 
 I used the “comp” command in the regression testing process. comp is the Windows command used to compare two files. I created a batch file called check.bat and I wrote the following code with the guidance of my mentor, James Bach:
-
+ 
 comp /M Masterfiles\before\Export_to_Excel_File.csv downloads-1%\before\ Export_to_Excel_File.csv
 comp /M Masterfiles\after\Export_to_Excel_File.csv downloads-1%\after\ Export_to_Excel_File.csv
 I chose to compare only the CSV files. I created a folder called Masterfiles, with “before” and “after” directories, where I saved the files from different test runs. These were then compared with the dynamic folder path (downloads-1%).
