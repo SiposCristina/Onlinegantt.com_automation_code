@@ -1,9 +1,0 @@
-Outline Level,ID,Name,Start,Finish,Duration,% Complete,Predecessors,Resource Names,Color,Notes
-1,1,"New Master Task 1",2024-08-22,2024-08-28,5 day,24,"","",,"<p><br></p>"
-2,2,"New Subtask MT1 1",2024-08-26,2024-08-28,3 day,20,"","Team 1",,"<p><br></p>"
-2,3,"New Subtask MT1 2",2024-08-26,2024-08-28,3 day,20,"2SS","Team 1",,"<p>The purpose of this test strategy is to guide the testing of the Online Gantt application.</p>"
-2,4,"New Subtask MT1 3",2024-08-22,2024-08-28,5 day,30,"3FF","Team 1",,"<p>I started adding tasks to the default tasks. During this process, I observed that the Start and End Dates for new tasks were set in the past. When I started a new project, the starting date of the timeline was displayed in the past, also the Start and End Dates for newly added tasks continued to reflect this issue.</p>"
-1,5,"New Master Task 2",2024-09-13,2024-09-27,11 day,30,"","",,"<p><br></p>"
-2,6,"New Subtask MT2 1",2024-09-13,2024-09-20,6 day,30,"","Team 2",,"<p><br></p>"
-2,7,"New Subtask MT2 2",2024-09-23,2024-09-27,5 day,30,"6FS","Team 2",,"<p>I started adding tasks to the default tasks.</p>"
-2,8,"New Subtask MT2 3",2024-09-18,2024-09-20,3 day,30,"7SF","Team 2",,"<p>During this process, I observed that the Start and End Dates for new tasks were set in the past. When I started a new project, the starting date of the timeline was displayed in the past, also the Start and End Dates for newly added tasks continued to reflect this issue.</p>"
