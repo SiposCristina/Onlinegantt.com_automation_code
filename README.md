@@ -4,7 +4,7 @@
 The Online Gantt Chart has a cloud version and a local version. I tested only the local version, that does not require creating an account.
  </a> </p>
 
-<h3>Description</h3> <p>To test the performance of the application, I wrote a Playwright script named ganttJson.spec.js. The script reads a JSON file that contains 58 tasks (testdata58.json), another with 258 (testdata258.json) tasks, and a third with 508 tasks (testdata508.json). Each file is read by the script and then it adds each task to the project. At the end of that process, the script performs a set of characteristic operations on six tasks, including indenting them, setting dependencies, assigning resources, and exporting project data.<br>
+<h3>Description</h3> <p> <h4>Performance Testing</h4> </p> <br> <p>To test the performance of the application, I wrote a Playwright script named ganttJson.spec.js. The script reads a JSON file that contains 58 tasks (testdata58.json), another with 258 (testdata258.json) tasks, and a third with 508 tasks (testdata508.json). Each file is read by the script and then it adds each task to the project. At the end of that process, the script performs a set of characteristic operations on six tasks, including indenting them, setting dependencies, assigning resources, and exporting project data.<br>
 <br>
 The purpose is to collect data and analyze it to observe how the application responds as the number of tasks increases.</p>
 <br>
