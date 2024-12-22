@@ -24,7 +24,6 @@ I chose to compare only the CSV files. I created a folder called Masterfiles, wi
 <h4>Regression Testing</h4> 
 For **regression testing**, I ran this command: npx playwright test regression.spec.js --project chromium --headed, where regression.spec.js contains the script designed for regression testing. <br>
 To compare the files from the two folders (Masterfiles and downloads-21DEC), I ran the test with this command: tests\check 21DEC, where “tests” is the folder containing the “check.bat” batch file, and “21DEC” is the folder containing the CSV file.
-</p>
 
 <h3>Test Results</h3> <h4>Performance Testing</h4> <p>As the below charts illustrate, as more tasks are added, the application performance gradually slows down.  </p>
 
