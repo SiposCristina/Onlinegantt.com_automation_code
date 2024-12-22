@@ -18,13 +18,15 @@ I chose to compare only the CSV files. I created a folder called Masterfiles, wi
 
 </p>
 
-<h3>How to Run It</h3> <p>For **performance testing**, I ran this command: npx playwright test ganttJson.spec.js --project chromium --headed. <br> I used --project chromium option to run the script in Chromium browser, and --headed mode to see the actual browser window during the test execution.
+<h3>How to Run It</h3> <h4>Performance Testing</h4> <p>For **performance testing**, I ran this command: npx playwright test ganttJson.spec.js --project chromium --headed. <br> I used --project chromium option to run the script in Chromium browser, and --headed mode to see the actual browser window during the test execution.
 <br>
-For **regression testing**, I ran this command: npx playwright test regression.spec.js --project chromium --headed.<br>
-To compare the two folders, I ran the test with this command: tests\check 21DEC, where “tests” is the folder containing the “check.bat” batch file, and “21DEC” is the folder containing the CSV file.
+<br>
+<h4>Regression Testing</h4> 
+For **regression testing**, I ran this command: npx playwright test regression.spec.js --project chromium --headed, where regression.spec.js contains the script designed for regression testing. <br>
+To compare the files from the two folders (Masterfiles and downloads-21DEC), I ran the test with this command: tests\check 21DEC, where “tests” is the folder containing the “check.bat” batch file, and “21DEC” is the folder containing the CSV file.
 </p>
 
-<h3>Test Results</h3> <p>As the below charts illustrate, as more tasks are added, the application performance gradually slows down.  </p>
+<h3>Test Results</h3> <h4>Performance Testing</h4> <p>As the below charts illustrate, as more tasks are added, the application performance gradually slows down.  </p>
 
 ![Image Alt](https://github.com/SiposCristina/Onlinegantt.com_automation_code/blob/914f5ad75e47110d4ae3696cf6924a2b600f1a70/Chart1.jpg)
 
@@ -43,7 +45,7 @@ As illustrated in the chart below, the time required increases as more tasks are
 
 ![Image Alt](https://github.com/SiposCristina/Onlinegantt.com_automation_code/blob/20e64ecc35b2303dbab2003c09f30e4a50fe16b8/Chart4.jpg)
 
-
+<h4>Regression Testing</h4> 
 
 
 
