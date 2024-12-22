@@ -4,7 +4,7 @@
 The Online Gantt Chart has a cloud version and a local version. I tested only the local version, that does not require creating an account.
  </a> </p>
 
-<h3>Description</h3> <p> <h4>Performance Testing</h4> </p> <p>To test the performance of the application, I wrote a Playwright script named ganttJson.spec.js. The script reads a JSON file that contains 58 tasks (testdata58.json), another with 258 (testdata258.json) tasks, and a third with 508 tasks (testdata508.json). Each file is read by the script and then it adds each task to the project. At the end of that process, the script performs a set of characteristic operations on six tasks, including indenting them, setting dependencies, assigning resources, and exporting project data.<br>
+<h3>Description</h3> <p> <h4>Performance Testing</h4> </p> <p>To test the performance of the application, I wrote a Playwright script named ganttJson.spec.js. The script reads a JSON file that contains 58 tasks (testdata58.json), another with 258 tasks (testdata258.json), and a third with 508 tasks (testdata508.json). Each file is read by the script and then it adds each task to the project. At the end of that process, the script performs a set of characteristic operations on six tasks, including indenting them, setting dependencies, assigning resources, and exporting project data.<br>
 The purpose is to collect data and analyze it to observe how the application responds as the number of tasks increases.</p>
 
 <h4>Regression Testing</h4> 
@@ -44,6 +44,13 @@ As illustrated in the chart below, the time required increases as more tasks are
 ![Image Alt](https://github.com/SiposCristina/Onlinegantt.com_automation_code/blob/20e64ecc35b2303dbab2003c09f30e4a50fe16b8/Chart4.jpg)
 
 <h4>Regression Testing</h4> 
+<p>As mentioned above, the script took screenshots while running the regression test. Below are the screenshots showing that, at the time they were captured, the application was handling the activities as written in the script.
+
+![Image Alt](https://github.com/user-attachments/assets/2c6c13ed-dfc2-435a-a4fb-5879fe7383da)
+
+
+ 
+</p>
 
 
 
