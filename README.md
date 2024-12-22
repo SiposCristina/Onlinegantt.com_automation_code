@@ -12,16 +12,15 @@ The purpose is to collect data and analyze it to observe how the application res
 Once this cycle is complete, the script proceeds by renaming the tasks, changing the dependency types, adding “Sunday” as a workday, and setting specific holiday dates for tasks scheduled on those days. Screenshots are taken to provide better visualization of the project, then the project file is exported as an Excel, PDF, and Image file. The file names include the day and month of their export (e.g. downloads-21DEC\after).
 <br>
 <br> 
-I used the “comp” command in the regression testing process. comp is the Windows command used to compare two files. I created a batch file called check.bat and I wrote the following code with the guidance of my mentor, James Bach:
+I used the “comp” command in the regression testing process. comp is the Windows command used to compare two files. I created a batch file called check.bat and I wrote the code with the guidance of my mentor, James Bach.
  
-comp /M Masterfiles\before\Export_to_Excel_File.csv downloads-1%\before\ Export_to_Excel_File.csv
-comp /M Masterfiles\after\Export_to_Excel_File.csv downloads-1%\after\ Export_to_Excel_File.csv
 I chose to compare only the CSV files. I created a folder called Masterfiles, with “before” and “after” directories, where I saved the files from different test runs. These were then compared with the dynamic folder path (downloads-1%).
 
 </p>
 
-<h3>How to Run It</h3> <p>For performance testing, I ran this command: npx playwright test ganttJson.spec.js --project chromium --headed. <br> I used --project chromium option to run the script in Chromium browser, and --headed mode to see the actual browser window during the test execution.<br>
-For regression testing, I ran this command: npx playwright test regression.spec.js --project chromium --headed.<br>
+<h3>How to Run It</h3> <p>For **performance testing**, I ran this command: npx playwright test ganttJson.spec.js --project chromium --headed. <br> I used --project chromium option to run the script in Chromium browser, and --headed mode to see the actual browser window during the test execution.
+<br>
+For **regression testing**, I ran this command: npx playwright test regression.spec.js --project chromium --headed.<br>
 To compare the two folders, I ran the test with this command: tests\check 21DEC, where “tests” is the folder containing the “check.bat” batch file, and “21DEC” is the folder containing the CSV file.
 </p>
 
