@@ -47,9 +47,16 @@ As illustrated in the chart below, the time required increases as more tasks are
 <p>As mentioned above, the script took screenshots while running the regression test. Below are the screenshots showing that, at the time they were captured, the application was handling the activities as written in the script.
 
 ![Image Alt](https://github.com/user-attachments/assets/2c6c13ed-dfc2-435a-a4fb-5879fe7383da)
+
 ![Image Alt](https://github.com/user-attachments/assets/28919388-d1fa-4176-b65c-09603a0f963c)
+
 ![Image Alt](https://github.com/user-attachments/assets/bdfddd5d-0bca-4c2c-9ac3-385d091fec7c)
+
 ![Image Alt](https://github.com/user-attachments/assets/31ebe72d-d4d0-4183-9b63-a518d77cd51c)
+
+Also, there were no differences between the two CSV files. Below is the test result displayed in the terminal:
+
+![Image Alt](https://github.com/user-attachments/assets/f757140b-fe95-4745-ac29-5dfcd0a3e51b)
 
 </p>
 
