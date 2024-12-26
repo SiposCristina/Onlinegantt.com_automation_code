@@ -23,7 +23,7 @@ I chose to compare only the CSV files. I created a folder called Masterfiles, wi
  <ul>
 <li>npx playwright test ganttJson.spec.js --project chromium --headed. <br> I used --project chromium option to run the script in Chromium browser, and --headed mode to see the actual browser window during the test execution</li>
 <li>npx playwright test ganttJson.spec.js --project firefox --headed (for Firefox browser)</li>
-<li>npx playwright test ganttJson.spec.js --project webkit --headed(for WebKit browser)</li>
+<li>npx playwright test ganttJson.spec.js --project webkit --headed (for WebKit browser)</li>
  </ul>
 <br>
 <h4>Regression Testing</h4> 
