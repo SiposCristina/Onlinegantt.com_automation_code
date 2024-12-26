@@ -25,7 +25,7 @@ I chose to compare only the CSV files. I created a folder called Masterfiles, wi
 <li>npx playwright test ganttJson.spec.js --project firefox --headed (for Firefox browser)</li>
 <li>npx playwright test ganttJson.spec.js --project webkit --headed (for WebKit browser)</li>
  </ul>
-<br>
+
 <h4>Regression Testing</h4> 
 For <i>regression testing</i>, I ran these commands:
  <ul>
