@@ -72,7 +72,7 @@ As illustrated in the chart below, the time required increases as more tasks are
 
 Also, there were no differences between the two CSV and PNG files, but there are differences between the PDF files. This isn't due to a bug. Visually, the PDFs appear the same, but their binary data differs every time they are generated. Since these changes don't matter in terms of how the files look, a binary comparison doesn't provide meaningful insights.
 
-Below is the test result displayed in the terminal:
+Below are the test results displayed in the terminal:
 
 ![Image Alt](https://github.com/user-attachments/assets/2e5cf441-e20c-4273-9ccd-d888342deecb)
 
