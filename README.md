@@ -7,7 +7,7 @@ The Online Gantt Chart has a cloud version and a local version. I tested only th
 
 <h3>Description</h3> <p> <h4>Performance Testing</h4> </p> <p>To test the performance of the application, I wrote a Playwright script named ganttJson.spec.js. The script reads a JSON file that contains 58 tasks (testdata58.json), another with 258 tasks (testdata258.json), and a third with 508 tasks (testdata508.json). Each file is read by the script and then it adds each task to the project. At the end of that process, the script performs a set of characteristic operations on six tasks, including indenting them, setting dependencies, assigning resources, and exporting project data.<br>
  
-The purpose is to collect data and analyze it to observe how the application responds as the number of tasks increases.<br>
+The purpose is to collect performance data and analyze it to observe how the application responds as the number of tasks increases.<br>
 
 The script was run on Chromium, Firefox, and WebKit browsers.</p>
 
@@ -18,7 +18,7 @@ Once this cycle is complete, the script proceeds by renaming the tasks, changing
 <br> 
 I used the “comp” command in the regression testing process. <i>comp</i> is the Windows command used to compare two files. I created a batch file called <i>check.bat</i> and I wrote the code with the guidance of my mentor, James Bach.
  
-I chose to compare only the CSV files. I created a folder called Masterfiles, with “before” and “after” directories, where I saved the files from different test runs. These were then compared with the dynamic folder path (e.g. downloads-1%).
+I compared the CSV, PDF and PNF files. I created a folder called Masterfiles, with “before” and “after” directories, where I saved the files from different test runs. These were then compared with the dynamic folder path (e.g. downloads-1%).
 
 </p>
 
@@ -38,7 +38,7 @@ For <i>regression testing</i>, I ran these commands:
 <li>npx playwright test regression.spec.js --project webkit --headed</li>
  </ul>
   <br>
-To compare the files from the two folders (Masterfiles and downloads-21DEC), I ran the test with this command: tests\check 21DEC, where “tests” is the folder containing the “check.bat” batch file, and “21DEC” is the folder containing the CSV file.
+To compare the files from the two folders (Masterfiles and downloads-21DEC), I ran the test with this command: tests\check 21DEC, where “tests” is the folder containing the “check.bat” batch file, and “21DEC” is the folder containing the CSV, PDF and PNG files.
 
 <h3>Test Results</h3> <h4>Performance Testing</h4> <p>As the below charts illustrate, as more tasks are added, the application performance gradually slows down. These results are collected from the script run in the Chromium browser.  </p>
 
@@ -72,7 +72,7 @@ As illustrated in the chart below, the time required increases as more tasks are
 
 Also, there were no differences between the two CSV files. Below is the test result displayed in the terminal:
 
-![Image Alt](https://github.com/user-attachments/assets/f757140b-fe95-4745-ac29-5dfcd0a3e51b)
+![Image Alt](https://github.com/user-attachments/assets/2e5cf441-e20c-4273-9ccd-d888342deecb)
 
 </p>
 
