@@ -40,7 +40,7 @@ For <i>regression testing</i>, I ran these commands:
   <br>
 To compare the files from the two folders (Masterfiles and downloads-21DEC), I ran the test with this command: tests\check 21DEC, where “tests” is the folder containing the “check.bat” batch file, and “21DEC” is the folder containing the CSV, PDF and PNG files.
 
-<h3>Test Results</h3> <h4>Performance Testing</h4> <p>As the below charts illustrate, as more tasks are added, the application performance gradually slows down. These results are collected from the script run in the Chromium browser.  </p>
+<h3>Test Results</h3> <h4>Performance Testing</h4> <p>As the below charts illustrate, as more tasks are added, the application performance gradually slows down. These results were collected from the script run in the Chromium, Firfox, and WebKit browsers.  </p>
 
 ![Image Alt](https://github.com/SiposCristina/Onlinegantt.com_automation_code/blob/914f5ad75e47110d4ae3696cf6924a2b600f1a70/Chart1.jpg)
 
@@ -60,7 +60,7 @@ As illustrated in the chart below, the time required increases as more tasks are
 ![Image Alt](https://github.com/SiposCristina/Onlinegantt.com_automation_code/blob/20e64ecc35b2303dbab2003c09f30e4a50fe16b8/Chart4.jpg)
 
 <h4>Regression Testing</h4> 
-<p>As mentioned above, the script took screenshots while running the regression test, in the Chromium browser. Below are the screenshots showing that, at the time they were captured, the application was handling the activities as written in the script.
+<p>As mentioned above, the script took screenshots while running the regression test. Below are the screenshots showing that, at the time they were captured, the application was handling the activities as written in the script.
 
 ![Image Alt](https://github.com/user-attachments/assets/2c6c13ed-dfc2-435a-a4fb-5879fe7383da)
 
