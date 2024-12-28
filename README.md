@@ -18,7 +18,7 @@ Once this cycle is complete, the script proceeds by renaming the tasks, changing
 <br> 
 I used the “comp” command in the regression testing process. <i>comp</i> is the Windows command used to compare two files. I created a batch file called <i>check.bat</i> and I wrote the code with the guidance of my mentor, James Bach.
  
-I compared the CSV, PDF and PNF files. I created a folder called Masterfiles, with “before” and “after” directories, where I saved the files from different test runs. These were then compared with the dynamic folder path (e.g. downloads-1%).
+I compared the CSV, PDF and PNG files. I created a folder called Masterfiles, with “before” and “after” directories, where I saved the files from different test runs. These were then compared with the dynamic folder path (e.g. downloads-1%).
 
 </p>
 
