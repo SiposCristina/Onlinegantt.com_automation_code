@@ -42,17 +42,17 @@ To compare the files from the two folders (Masterfiles and downloads-21DEC), I r
 
 <h3>Test Results</h3> <h4>Performance Testing</h4> <p>As the below charts illustrate, as more tasks are added, the application performance gradually slows down. These results were collected from the script run in the Chromium, Firfox, and WebKit browsers.  </p>
 
-![Image Alt](https://github.com/user-attachments/assets/bd4cd985-aff7-4f31-ab03-cbcc19e19276)
+![Image Alt](https://github.com/user-attachments/assets/efe7203a-6d75-4ff9-981c-0ab69d120ee7)
 
-![Image Alt](https://github.com/user-attachments/assets/ce873e3b-77f2-4492-ad38-4a5e2742b1e8)
+![Image Alt](https://github.com/user-attachments/assets/1385649a-4834-4616-80c3-4c10ee618440)
 
-![Image Alt](https://github.com/user-attachments/assets/2227c376-2883-46ac-b09a-027413a8d3a7)
+![Image Alt](https://github.com/user-attachments/assets/0b69cc64-6fa8-4403-af8a-f163512dcf6b)
 
-![Image Alt](https://github.com/user-attachments/assets/54f9faa9-2b4d-4040-b84f-e90a7b10005d)
+![Image Alt](https://github.com/user-attachments/assets/45c40d0b-171c-4bbb-964b-b5fd134b401d)
 
-![Image Alt](https://github.com/user-attachments/assets/9f69f55e-9f84-4ff3-8da4-2ebcaaf8d9ae)
+![Image Alt](https://github.com/user-attachments/assets/38ea296c-3a7b-4006-80d6-4a7c7f78b73c)
 
-![Image Alt](https://github.com/user-attachments/assets/84cc75c4-b172-4f99-8970-8aaad2e47af4)
+![Image Alt](https://github.com/user-attachments/assets/3ed3bc10-d27f-4904-9b47-3aa038c4bd50)
 
 
 <br>
