@@ -42,13 +42,17 @@ To compare the files from the two folders (Masterfiles and downloads-21DEC), I r
 
 <h3>Test Results</h3> <h4>Performance Testing</h4> <p>As the below charts illustrate, as more tasks are added, the application performance gradually slows down. These results were collected from the script run in the Chromium, Firfox, and WebKit browsers.  </p>
 
-![Image Alt](https://github.com/SiposCristina/Onlinegantt.com_automation_code/blob/914f5ad75e47110d4ae3696cf6924a2b600f1a70/Chart1.jpg)
+![Image Alt](https://github.com/user-attachments/assets/bd4cd985-aff7-4f31-ab03-cbcc19e19276)
 
+![Image Alt](https://github.com/user-attachments/assets/ce873e3b-77f2-4492-ad38-4a5e2742b1e8)
 
-![Image Alt](https://github.com/SiposCristina/Onlinegantt.com_automation_code/blob/20e64ecc35b2303dbab2003c09f30e4a50fe16b8/Chart2.jpg)
+![Image Alt](https://github.com/user-attachments/assets/2227c376-2883-46ac-b09a-027413a8d3a7)
 
+![Image Alt](https://github.com/user-attachments/assets/54f9faa9-2b4d-4040-b84f-e90a7b10005d)
 
-![Image Alt](https://github.com/SiposCristina/Onlinegantt.com_automation_code/blob/816a09d7fb6d10f47fdbb9516425004376ca6c9e/Chart3.jpg)
+![Image Alt](https://github.com/user-attachments/assets/9f69f55e-9f84-4ff3-8da4-2ebcaaf8d9ae)
+
+![Image Alt](https://github.com/user-attachments/assets/84cc75c4-b172-4f99-8970-8aaad2e47af4)
 
 
 <br>
@@ -57,7 +61,7 @@ To compare the files from the two folders (Masterfiles and downloads-21DEC), I r
 As illustrated in the chart below, the time required increases as more tasks are added, even when the number of indented tasks, assigned resources, added dependencies and notes remains constant.  This indicates that the product becomes difficult to use as the size of the project reaches a couple hundred tasks.
 </p>
 
-![Image Alt](https://github.com/SiposCristina/Onlinegantt.com_automation_code/blob/20e64ecc35b2303dbab2003c09f30e4a50fe16b8/Chart4.jpg)
+![Image Alt](https://github.com/user-attachments/assets/9a861d8c-fb49-49e4-8646-765ecf23482d)
 
 <h4>Regression Testing</h4> 
 <p>As mentioned above, the script took screenshots while running the regression test. Below are the screenshots showing that, at the time they were captured, the application was handling the activities as written in the script.
