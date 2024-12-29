@@ -9,7 +9,7 @@ The Online Gantt Chart has a cloud version and a local version. I tested only th
  
 The purpose is to collect performance data and analyze it to observe how the application responds as the number of tasks increases.<br>
 
-The script was run on Chromium, Firefox, and WebKit browsers.</p>
+The script was run on Chromium, Chrome, Microsof Edge, Firefox, and WebKit browsers.</p>
 
 <h4>Regression Testing</h4> 
 <p>The strategy for regression testing was designed to assess how the application handles the major activities. To achieve this, I wrote a Playwright script that reads testdata8.json JSON file containing eight tasks. The file is read by the script and adds each task to the project. Two tasks are designed as parent tasks, each with three child tasks, resulting in six out of eight tasks being indented. Dependencies and notes are added to four tasks, and resources are assigned six tasks. Once complete, the project file is exported as an Excel, PDF, and Image file. The file names include the day and month of their export (e.g. downloads-21DEC\before).
@@ -74,7 +74,7 @@ As illustrated in the chart below, the time required increases as more tasks are
 
 ![Image Alt](https://github.com/user-attachments/assets/31ebe72d-d4d0-4183-9b63-a518d77cd51c)
 
-Also, there are no differences between the two CSV and PNG files, but there are differences between the PDF files. This isn't due to a bug. Visually, the PDFs appear the same, but their binary data differs every time they are generated. Since these changes don't matter in terms of how the files look, a binary comparison doesn't provide meaningful insights.
+Also, there are no differences between the two CSV and PNG files, but there are differences between the PDF files. This isn't due to a bug. Visually, the PDFs appear the same, but their binary data differs every time they are generated. Since these differences don't affect how the files look, a binary comparison doesn't provide meaningful insights..
 
 Below are the test results displayed in the terminal:
 
