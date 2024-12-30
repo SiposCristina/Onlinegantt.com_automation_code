@@ -28,6 +28,8 @@ For <i>performance testing</i>, I ran these commands:
 <li>npx playwright test ganttJson.spec.js --project chromium --headed. <br> I used --project chromium option to run the script in Chromium browser, and --headed mode to see the actual browser window during the test execution</li>
 <li>npx playwright test ganttJson.spec.js --project firefox --headed (for Firefox browser)</li>
 <li>npx playwright test ganttJson.spec.js --project webkit --headed (for WebKit browser)</li>
+<li>npx playwright test ganttJson.spec.js --project chrome --headed (for Chrome browser)</li>
+<li>npx playwright test ganttJson.spec.js --project edge --headed (for Microsoft Edge browser)</li>
  </ul>
 
 <h4>Regression Testing</h4> 
@@ -36,6 +38,8 @@ For <i>regression testing</i>, I ran these commands:
 <li>npx playwright test regression.spec.js --project chromium --headed, where regression.spec.js contains the script designed for regression testing</li>
 <li>npx playwright test regression.spec.js --project firefox --headed</li>
 <li>npx playwright test regression.spec.js --project webkit --headed</li>
+<li>npx playwright test regression.spec.js --project chrome --headed</li>
+<li>npx playwright test regression.spec.js --project edge --headed</li>
  </ul>
   <br>
 To compare the files from the two folders (Masterfiles and downloads-21DEC), I ran the test with this command: tests\check 21DEC, where “tests” is the folder containing the “check.bat” batch file, and “21DEC” is the folder containing the CSV, PDF and PNG files.
