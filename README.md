@@ -25,7 +25,7 @@ I compared the CSV, PDF and PNG files. I created a folder called Masterfiles, wi
 <h3>How to Run It</h3> <h4>Performance Testing</h4> 
 For <i>performance testing</i>, I ran these commands: 
  <ul>
-<li>npx playwright test ganttJson.spec.js --project chromium --headed. <br> I used --project chromium option to run the script in Chromium browser, and --headed mode to see the actual browser window during the test execution</li>
+<li>npx playwright test ganttJson.spec.js --project chromium --headed, where ganttJson.spec.js contains the script designed for performance testing <br> I used --project chromium option to run the script in Chromium browser, and --headed mode to see the actual browser window during the test execution</li>
 <li>npx playwright test ganttJson.spec.js --project firefox --headed (for Firefox browser)</li>
 <li>npx playwright test ganttJson.spec.js --project webkit --headed (for WebKit browser)</li>
 <li>npx playwright test ganttJson.spec.js --project chrome --headed (for Chrome browser)</li>
@@ -44,7 +44,7 @@ For <i>regression testing</i>, I ran these commands:
   <br>
 To compare the files from the two folders (Masterfiles and downloads-21DEC), I ran the test with this command: tests\check 21DEC, where “tests” is the folder containing the “check.bat” batch file, and “21DEC” is the folder containing the CSV, PDF and PNG files.
 
-<h3>Test Results</h3> <h4>Performance Testing</h4> <p>As the below charts illustrate, as more tasks are added, the application performance gradually slows down. These results were collected from the script run in the Chromium, Firfox, and WebKit browsers.  </p>
+<h3>Test Results</h3> <h4>Performance Testing</h4> <p>As the below charts illustrate, as more tasks are added, the application performance gradually slows down. These results were collected from the script run in the Chromium, Chrome, Microsoft Edge, Firfox, and WebKit browsers.  </p>
 
 ![Image Alt](https://github.com/user-attachments/assets/efe7203a-6d75-4ff9-981c-0ab69d120ee7)
 
